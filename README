@@ -1,0 +1,4 @@
+C language Practice.
+
+This small  programme include conf module, logging module and database module. Threads are used to synchronize data between MySql and the local memory. 
+
