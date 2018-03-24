@@ -16,6 +16,7 @@
 #include "emp_log.h"
 
 
+// 应该加锁, 防止发生踩地址
 int logger(en_log_level iLogLevel, char * str)
 {
     // 新建日志节点

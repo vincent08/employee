@@ -223,6 +223,6 @@ int initDbModule()
         return RET_FAIL;
     }
 
-    logger(INFO_LOG, "init database module success.\0");
+    logger(infoLevel, "init database module success.\0");
     return RET_SUCC;
 }
